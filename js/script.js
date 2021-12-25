@@ -18,5 +18,5 @@ counters.forEach((counter) => {
             }
         };
         updateCounter();
-    }, 2000);
+    }, 1000);
 });
