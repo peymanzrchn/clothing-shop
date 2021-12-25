@@ -59,11 +59,6 @@ $(window).on("load", function () {
             $(window).scrollTop($(window).scrollTop() + 1);
         }
     });
-
-    $(".counter").counterUp({
-        delay: 10,
-        time: 2000,
-    });
 });
 
 $(".owl-carousel").owlCarousel({
