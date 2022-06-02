@@ -20,15 +20,11 @@ $(function () {
 
     $(window).on("scroll load", function () {
         if ($(window).scrollTop() > 120) {
-            $("#navbar")
-                .css("background-color", "rgba(20,40,60,0.7)")
-                .css("padding", "30px 40px");
+            $("#navbar").css("background-color", "rgba(20,40,60,0.7)").css("padding", "30px 40px");
             $("#top-nav").css("margin", "-10px");
             $("#logo").css("margin", "-3px");
         } else {
-            $("#navbar")
-                .css("background-color", "rgba(0,0,0,0)")
-                .css("padding", "20px 40px");
+            $("#navbar").css("background-color", "rgba(0,0,0,0)").css("padding", "20px 40px");
         }
     });
 
@@ -58,6 +54,11 @@ $(window).on("load", function () {
         } else {
             $(window).scrollTop($(window).scrollTop() + 1);
         }
+    });
+
+    $(".counter").counterUp({
+        delay: 10,
+        time: 1500,
     });
 });
 
