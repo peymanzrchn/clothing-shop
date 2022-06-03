@@ -129,9 +129,17 @@ a:hover {
     padding: 30px 0;
 }
 
+.card-title a {
+    color: #333;
+}
+
 #portfolio {
-    background-color: #808dbd;
+    background-color: #dc3545;
     padding: 30px 0;
+}
+
+.portfolio-header h3 {
+    color: #fff !important;
 }
 
 #portfolio-filter {
@@ -158,6 +166,7 @@ a:hover {
 #portfolio-filter .filter-active {
     background-color: #dc3545;
     color: white;
+    border: 2px solid #fff;
 }
 
 #portfolio .card-img-overlay {
@@ -193,8 +202,6 @@ a:hover {
 }
 
 #stats {
-    background-color: rgba(0, 0, 0, 0.4);
-    /* height: 100vh; */
     min-height: 580px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -207,23 +214,37 @@ a:hover {
     line-height: 3.5rem;
 }
 
+.stats-text {
+    color: #333;
+    font-size: 24px;
+}
+
 .i-logo i {
-    color: white;
-    border: 2px solid white;
+    color: red;
+    border: 2px solid red;
     border-radius: 50%;
     padding: 20px 20px;
+    margin-bottom: 15px;
+}
+
+.stats-content h5 {
+    color: #444;
 }
 
 .counter {
     font-size: 56px;
     font-family: yekanf;
-    color: red;
+    color: #333;
     font-weight: bold;
 }
 
 #team {
-    background-color: #fafafa;
+    background-color: #dc3545;
     padding: 30px 0;
+}
+
+.team-header h3 {
+    color: #fff;
 }
 
 #team .card-img-overlay {
@@ -265,7 +286,7 @@ a:hover {
 }
 
 #clients {
-    background-color: #ecd3d5;
+    background-color: #fff;
     padding: 30px 0;
 }
 
